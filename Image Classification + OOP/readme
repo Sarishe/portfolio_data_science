@@ -1,1 +1,11 @@
+This project demonstrates how to train and evaluate multiple models on the MNIST handwritten digit classification task, using:
+1. XGBoost as a baseline Random Forest-style classifier 
+2. A simple Feedforward Neural Network (FNN) using Keras
+3. A Convolutional Neural Network (CNN) using Keras for image recognition
 
+All models are trained using a shared interface (MnistClassifierInterface) with a common train() and predict() API.
+
+How to Run 
+1. Install required packages from requirements.txt
+2. Run the script from Image_Classification_+_OOP.ipynb
+You’ll see the training and validation accuracy for all three models
