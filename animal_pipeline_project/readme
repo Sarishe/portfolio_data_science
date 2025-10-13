@@ -12,8 +12,8 @@ dog, horse, elephant, butterfly, chicken, cat, cow, sheep, spider, squirrel
 
 How to Run the Pipeline
 1. Install required packages from requirements.txt
-2. Run pipeline.py from run folder in Google Collab (contains DEMO)
-3. You’ll be prompted to: Enter a sentence (e.g. "I saw a big elephant"), Upload an image file
+2. Run pipeline file from "run" folder in Google Collab (contains DEMO)
+3. You’ll be prompted to: Enter a sentence (e.g. "I saw a big elephant"), upload an image file
 
 Model weights and tokenizer can be downloaded from Google Drive:
 Classifier Weights: https://drive.google.com/file/d/1Yz_DvxRTs4y0_6gBUsG1F4ODwXZgYH1w
