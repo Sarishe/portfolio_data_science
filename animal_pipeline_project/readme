@@ -1,1 +1,21 @@
+This project implements an Animal Verification Pipeline that determines whether an input text description matches the animal shown in an image.
 
+Models Used
+1. NER (Text Analysis)
+Model: RoBERTa-base (fine-tuned)
+Task: Extract mentions of animals from input text using token classification.
+Tags used: O, B-ANIMAL, I-ANIMAL
+2. Image Classifier
+Model: ResNet-18 (modified last layer)
+Task: Classify images into one of 10 animal classes:
+dog, horse, elephant, butterfly, chicken, cat, cow, sheep, spider, squirrel
+
+How to Run the Pipeline
+1. Install required packages from requirements.txt
+2. Run pipeline.py from run folder in Google Collab (contains DEMO)
+3. You’ll be prompted to: Enter a sentence (e.g. "I saw a big elephant"), Upload an image file
+
+Model weights and tokenizer can be downloaded from Google Drive:
+Classifier Weights: https://drive.google.com/file/d/1Yz_DvxRTs4y0_6gBUsG1F4ODwXZgYH1w
+NER Tokenizer: https://drive.google.com/file/d/1Rs1c5DtyYB17zgcBK_MAFYsfAF1bklHs
+NER Weights: https://drive.google.com/file/d/1KkjluZVzaBcO6SmKtXjwuN8i-P_VyhSm
