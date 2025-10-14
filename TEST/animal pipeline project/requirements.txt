@@ -1,0 +1,9 @@
+torch
+torchvision
+transformers
+Pillow
+matplotlib
+tqdm
+gdown
+google-colab
+kagglehub
